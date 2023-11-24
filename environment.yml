@@ -1,0 +1,15 @@
+name: test-environment
+  -python
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas
+  - scipy
+  - tqdm
+  - watermark
+  - python-wget
+  - shapely
+  - Cartopy
